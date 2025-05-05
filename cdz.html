@@ -3,12 +3,13 @@
  <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-sacel=1.0">
+    <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
      <title>JK Cell</title>
      <style>
          body {font-family: Arial, sans-self; margin:0; background: #f4f4f4;}
-         header { background: #0066cc; color: white; padding: 60px 20px; text-align: center;}
+         header { background: #cc0000; color: white; padding: 60px 20px; text-align: center;}
          .cta-button{
-             background: #ff9900;
+             background: #2805f3;
              color: white;
              padding: 15px 30px;
              text-decoration: none;
@@ -19,9 +20,32 @@
              padding: 40px 20px;
              text-align: center;
          }
-         footer {background: #333; color: white;}
+         footer {background: #2805f3; color: white;}
          </style>
  </head>
+ <nav class="navbar bg-danger navbar-dark navbar-expand-sm py-3 sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand">Bem-Vindos!!</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="cdz.js" class="cta-button">Smartphones</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="cdz.css" class="cta-button">Imagens</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-dark" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
     <body>
         <header>
             <h1>Smartphones em Geral</h1>
