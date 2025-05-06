@@ -1,0 +1,56 @@
+
+         body {font-family: Arial, sans-self; margin:0; background: #f4f4f4;}
+         header { background: #080808; color: white; padding: 60px 20px; text-align: center;}
+         .cta-button{
+             background: #000000;
+             color: white;
+             padding: 15px 30px;
+             text-decoration: none;
+             border-radius: 5px;
+             font-size: 1em;
+         }
+         section, footer {
+             padding: 40px 20px;
+             text-align: center;
+         }
+         footer {background: #0a0a0a; color: white;}
+        
+         body { font-family: Arial, Helvetica, sans-serif;background:#eef2f3; margin: 0; padding: 0;}
+         .container{
+             max-width: 500px;
+             margin: 50px auto;
+             background: white;
+             padding: 30px;
+             border-radius: 8px;
+             box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+         }
+         h2 { text-align: center; color: #333;}
+         label {display: block; margin-top: 15px; font-weight: bold;}
+         input, textarea{
+             width: 100%;
+             padding: 10px;
+             margin-top: 5px;
+             border: 1px solid #ccc;
+         }
+         button{
+             margin-top: 20px;
+             padding: 12px;
+             background: #0066cc;
+             color: white;
+             border: none;
+             width: 100%;
+             border-radius: 5px;
+             font-size: 1em;
+             cursor: pointer;
+         }
+         button:hover{
+             background:#004999;
+         }
+          .container{
+            margin: 0 auto;
+            width: 70vw;
+          }
+          .image{
+            margin: 1rem;
+            width: 100%;
+          }
