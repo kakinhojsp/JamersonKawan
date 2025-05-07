@@ -1,19 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smartphones</title>
-    <link href="style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marcas de Celulares Populares</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main class="container">
-        <img class="image" src="15 pro max 1.webp">
-        <img class="image" src="motorola 1.webp">
-        <img class="image" src="samsung 1.webp">
-        <img class="image" src="xiaomi-14-ultra-1.webp">
-        <img class="image" src="LGs 1.jpg">
-    </main>
+  <header>
+    <h1>Marcas de Celulares Populares</h1>
+    <p>Clique em uma marca para ver seus modelos mais conhecidos</p>
+  </header>
+
+  <main>
+    <section id="botoes-marcas">
+      <button onclick="mostrarModelos('apple')">Apple</button>
+      <button onclick="mostrarModelos('samsung')">Samsung</button>
+      <button onclick="mostrarModelos('xiaomi')">Xiaomi</button>
+      <button onclick="mostrarModelos('motorola')">Motorola</button>
+      <button onclick="mostrarModelos('google')">LG</button>
+      <button onclick="mostrarModelos('oneplus')">OnePlus</button>
+    </section>
+
+    <section id="modelos">
+      <!-- Os modelos e imagens serão exibidos aqui via JavaScript -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Catálogo de Celulares</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
-<script src="Celulares.js"></script>
 </html>
