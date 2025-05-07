@@ -15,7 +15,7 @@ const catalogo = {
       { nome: "Moto G84", imagem: "motorola 1.webp" },
       
     ],
-    google: [
+    LG: [
       { nome: "LG's", imagem: "LGs 1.jpg" },
       
     ],
